@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+}
+
+img {
+  display: block;
+  height: 100%;
+}
+
+.facebook-header {
+  position: relative;
+  width: 851px;
+  height: 315px;
+  background-color: #EEEEEE;
+  margin-bottom: 1em;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.facebook-event {
+  background: url(../images/background-pattern--grey.png); 
+}
+
+.facebook-event__speaker-series {
+}
+
+.facebook-event__speaker-series__image {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  vertical-align: middle;
+}
+
+.facebook-event__speaker-series__text {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0.125em;
+}
+
+.facebook-event__speaker-series__text__title {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 0.75;
+}
+
+.facebook-event__speaker-series__text__subtitle {
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+
+.facebook-event__title {
+  position: absolute;
+  max-width: 60%;
+  bottom: 1.75em;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.facebook-event__subtitle {
+  position: absolute;
+  bottom: 2em;
+  font-size: 1.5em;
+}
+
+.facebook-event__image {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.facebook-event__image img {
+  border-radius: 0.33em;
+}
+
