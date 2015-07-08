@@ -1,0 +1,34 @@
+body {
+  font-family: "Source Sans Pro Black";
+}
+
+.CodeCats-videointro {
+  width: 640px; 
+  height: 480px; 
+  background-image: url(background.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#cc {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.CodeCats-videointro p {
+  text-align: center;
+  color: lightgrey;
+  font-family: "Source Sans Pro Black";
+  font-size: 30px;
+  margin: 0px;
+}
+
+#speaker {
+  font-size: 45px;
+  margin-top: 5px;
+  color: grey;
+}

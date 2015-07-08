@@ -4,7 +4,7 @@ body {
 
 .CodeCats-schedule {
   width: 851px; 
-  height: 315px; 
+  height: 400px; 
   background-image: url(background.jpg);
   background-size: cover;
   position: relative;
@@ -83,4 +83,37 @@ th {
 
 #left {
   background-color: rgb(213, 196, 234);
+}
+
+.weekend {
+  width: 773px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(213, 196, 234, 0.5);
+  position: relative;
+}
+
+.special {
+  width: 127px;
+  height: 100px;
+  margin: 0px !important;
+  position: absolute;
+  background-color: rgb(213, 196, 234);
+}
+
+.special p {
+  margin-top: 34px;
+  font-family: "Source Sans Pro Black";
+  color: white;
+  text-align: center;
+}
+
+.pic {
+  width: 365px !important;
+  height: 100px !important;
+  margin: 0px !important;
+  margin-left: 265px !important;
+  position: absolute;
 }
